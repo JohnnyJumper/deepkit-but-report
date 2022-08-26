@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "strict": true,
+    "alwaysStrict": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDir": "./src/"
+  },
+  "watchOptions": {
+    "excludeDirectories": ["**/node_modules", "./dist/"]
+  },
+  "reflection": true,
+  "exclude": ["**/node_modules/**/*", "**/src/**/*.spec.ts"]
+}
